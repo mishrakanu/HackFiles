@@ -78,9 +78,7 @@ class _DashboardState extends State<Dashboard> {
                     )
                   ]),
               margin: EdgeInsets.only(right: 20.0),
-              child: Visibility(
-                visible: false,
-                child: TextField(
+              child: TextField(
                   decoration: InputDecoration(
                     hintText: 'Search Something',
                     focusedBorder: OutlineInputBorder(
@@ -104,7 +102,7 @@ class _DashboardState extends State<Dashboard> {
                         onPressed: () {},
                       ),
                     ),
-                  ),
+                  
                 ),
               ),
             ),
